@@ -109,14 +109,6 @@
       return jQuery.type(value) === "undefined" || jQuery.type(value) === "null";
     },
 
-    reverse: function(objArray) {
-      let result = [];
-      $.each(objArray, function(i, obj) {
-        result.splice(0, 0, obj);
-      });
-      return $(result);
-    },
-
     /**
      * @param {*} option
      * String (html content)
